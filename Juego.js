@@ -203,7 +203,7 @@ class Juego extends THREE.Object3D {
         var geometryFondo = new THREE.BoxGeometry (2.5,2.5,0.1);
         
         // El material se hará con una textura de madera
-        var texture = new THREE.TextureLoader().load('./imgs/Fondo.jpg');
+        var texture = new THREE.TextureLoader().load('imgs/Fondo.jpg');
         var materialFondo = new THREE.MeshPhongMaterial ({map: texture});
         
         // Ya se puede construir el Mesh
