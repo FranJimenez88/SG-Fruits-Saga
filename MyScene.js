@@ -60,7 +60,7 @@ class MyScene extends THREE.Scene {
 
     
 
-    this.background = new THREE.TextureLoader().load('../imgs/playa.png');
+    this.background = new THREE.TextureLoader().load('./imgs/playa.png');
    
   }
 
